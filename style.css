@@ -1,0 +1,697 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/*text*/
+
+/*text*/
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    /* background: rgb(33,6,73); */
+    /* background: linear-gradient(180deg, rgba(33,6,73,1) 0%, rgb(79, 14, 175) 40%), url(images/andrew-kliatskyi-B_Z9jqassqE-unsplash.jpg); */
+    background: linear-gradient(180deg, rgb(66 12 147), rgb(0 0 0 / 70%)), url(images/development.jpg);
+    /* background-image: url("images/banner.png");; */
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.nav {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    padding: 50px 100px;
+    /* background: #4a98f7; */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  }
+
+.nav,
+.nav .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.instagram-logo {
+    width: 20px;
+    align-items: center;
+    margin-top: 35%;
+}
+
+.header-right {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.header-right a:nth-child(1) {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #3c0a86;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.header-right a:nth-child(1):hover {
+    background-color: #7f7f7f;
+    color: white;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.instagram-logo {
+    width: 20px;
+}
+
+.nav .logo {
+    text-align: left;
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 200;
+    /* width: 70%; */
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: 0.5s;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.whatsapp:hover {
+    scale: 1.1;
+}
+
+.whatsapp-icon {
+    /* border: 2px solid white; */
+    border-radius: 50%;
+}
+
+.speciality {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.speciality p {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0BAECC;
+}
+
+p {
+    color: #CB6CE6;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    /* padding: 10px; */
+}
+
+.row {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-design {
+    margin-top: 0%;
+    display: flex;
+    padding: 50px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    place-self: center;
+}
+
+.speciality-col {
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.beloftes {
+    margin-top: 10%;
+}
+
+.beloftes {
+    padding: 50px 20px 50px 20px;
+    margin-bottom: 10%;
+    text-align: center;
+    margin: 0 auto;
+    flex: 1 0 30%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.beloftes:hover {
+    top: -10px;
+}
+
+.onze-stappen .beloftes {
+    padding: 50px 20px 50px 20px;
+    margin-bottom: 10%;
+    text-align: center;
+    margin: 0 auto;
+    flex: 1 0 30%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.onze-stappen .beloftes p {
+    width: 70%;
+}
+
+.onze-stappen .beloftes h1 {
+    color: #a5a5a5;
+    opacity: 0.4;
+}
+
+.beloftes img {
+    background-color: #3c0a86;
+    padding: 15px;
+    width: 15%;
+    border-radius: 20%;
+}
+
+.beloftes p {
+    font-size: 14px;
+    color: rgb(145 145 145);
+    width: 70%;
+    margin: 0 auto;
+}
+
+.uitleg {
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: #3c0a86;
+    align-items: center;
+}
+
+.text {
+    width: 40%;
+    border-radius: 20px;
+}
+
+.text h1 {
+    color: white;
+    line-height: 40px;
+}
+
+.text p {
+    text-align: left;
+    color: white;
+    margin-top: 25px;
+}
+
+.uitleg .image {
+    width: 50%;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.uitleg .image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.onze-diensten2 {
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+}
+
+.onze-diensten2 h1 {
+    color: #3c0a86;
+}
+
+.onze-diensten2 p {
+    color: #3c0a86;
+}
+
+.onze-diensten2 .image {
+    width: 50%;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.onze-diensten2 .image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.our-services-btn {
+    background-color: rgb(79, 14, 175);
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-top: 5%;
+    transition: 0.5s;
+}
+
+.our-services-btn:hover {
+    background-color: #7f7f7f;
+}
+
+.our-services-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-box .typewrite {
+    font-weight: 800;
+}
+
+.onze-diensten {
+    padding-top: 5%;
+    min-height: 100vh;
+}
+
+.onze-diensten h1 {
+    color: #3c0a86;
+    font-weight: 800;
+    text-align: center;
+}
+
+.speciality-col img {
+    width: 35px;
+    height: 35px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 800;
+    margin: 10px 0;
+    color: #3c0a86;
+}
+
+h2 {
+    color: #0BAECC;
+}
+
+/*over-ons*/
+.over-ons {
+    width: 90%;
+    margin: auto;
+    display: grid;
+}
+
+.onze-stappen {
+    width: 100%;
+    margin: auto;
+    display: grid;
+}
+
+.realisatie .row-design {
+    padding: 0;
+}
+
+.realisatie {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    margin: 0 auto;
+    padding: 0px 0px 100px 0px;
+}
+
+.realisatie h1 {
+    color: #3c0a86;
+    text-align: center;
+}
+
+.realisatie-col {
+    flex: 1 0 30%;
+    justify-content: center;
+    display: flex;
+}
+
+.realisatie-col img {
+    width: 50%;
+    opacity: 0.4;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #3c0a86;
+    background-position: center;
+    background-size: cover;
+    position: static;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.werkzaamheden {
+    margin: auto;
+    padding: 70px 50px 70px 50px;
+}
+
+.werkzaamheden .row {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.werkzaamheden h1, p {
+    text-align: center;
+}
+
+.boeking-vragen {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.werkzaamheden-col b {
+    font-size: 14px;
+    font-weight: 500;
+    color: #CB6CE6;
+}
+
+.werkzaamheden-col {
+    flex-basis: 40%;
+    background: #3c0a86;
+    border-radius: 10px;
+    padding: 20px 40px;
+    transition: 0.5s;
+    min-height: 70%;
+    padding: 40px;
+    box-shadow: blue;
+    box-shadow: 10px 10px 20px 0px rgb(0 0 0 / 45%);
+}
+
+.werkzaamheden-col h3 {
+    text-align: left;
+    color: #fff;
+    margin: 0;
+}
+
+.werkzaamheden-col article {
+    text-align: left;
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1160px) {
+    .nav {
+      padding: 50px;
+    }
+
+    .nav .logo {
+        text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    .nav {
+      padding: 15px 50px;
+    }
+  }
+
+@media (max-width: 1024px){
+    .text-box h1 {
+        font-size: 38px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .uitleg {
+        padding: 50px 100px 50px 100px;
+        flex-wrap: wrap;    
+    }
+
+    .uitleg .image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .text {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .onze-diensten2 .text {
+        width: 100%;
+        /* margin-bottom: 10%; */
+        margin-top: 5%;
+    }
+
+    .onze-diensten2 {
+        padding: 0px 100px 50px 100px;
+        flex-wrap: wrap;
+    }
+
+    .onze-diensten2 .image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .beloftes img {
+        /* width: 110%; */
+        flex-basis: 27.5%;
+    }
+}
+
+@media(max-width: 768px) {
+    .nav .logo {
+        text-align: left;
+    }
+
+  .nav {
+    padding: 25px 25px;
+  }
+
+  .text {
+    width: 100%;
+    margin: 0;
+  }
+
+  .uitleg .image img {
+    margin-top: 5%;
+  }
+
+  .werkzaamheden-col {
+    box-shadow: none;
+  }
+
+
+  .werkzaamheden-col:nth-child(1) {
+    margin-bottom: 5%;
+  }
+
+    .text-box h1 {
+        font-size: 26px;
+    }
+
+    .realisatie {
+        padding: 0;
+    }
+
+    .speciality {
+        width: 100%;
+    }
+
+    .speciality-col p {
+        font-size: 16px;
+    }
+
+    .row {
+        width: 25%;
+        flex-direction: column;
+        /* align-items: center; */
+        /* margin-left: 40%; */
+    }
+
+    .beloftes {
+        padding: 100px 10px;
+    }
+
+    .over-ons-col p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .reviews-col img {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .werkzaamheden {
+        padding: 100px 10px;
+    }
+
+    .beloftes img {
+        width: 15%;
+        object-fit: cover;
+    }
+
+    .beloftes p {
+        width: 100%;
+    }
+
+    .row-design {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .werkzaamheden .row {
+        margin: 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .header-right {
+        width: 25px;
+    }
+
+    .header-right a:nth-child(1) {
+        display: none;
+    }
+
+    .instagram-logo {
+        margin: 0;
+    }
+
+    .nav .logo {
+        text-align: left;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .row {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .row-design {
+        padding: 20px 0px 20px 0px;;
+    }
+
+    .beloftes {
+        flex: 1 0 50%;
+        padding: 20px;
+        position: inherit;
+    }
+
+    .uitleg {
+        padding: 50px;
+    }
+
+    .uitleg .image {
+        width: 100%;
+    }
+
+    .onze-diensten2 {
+        flex-direction: column-reverse;
+        padding: 50px 25px;
+    }
+
+    .uitleg .image img {
+        display: none;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .onze-diensten2 .image {
+        display: none;
+    }
+
+    .onze-stappen .beloftes {
+        padding: 20px;
+        flex: 1 0 45%;
+    }
+
+    .realisatie {
+        padding: 0px 0px 70px 0px;
+    }
+
+    .realisatie-col img {
+        width: 70%;
+    }
+
+    .onze-diensten2 {
+        justify-content: center;
+        min-height: 50vh;
+        padding: 0px 25px 50px 25px;
+    }
+
+    .onze-diensten2 h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .werkzaamheden {
+        padding: 0px 10px;
+    }
+
+    .werkzaamheden-col {
+        margin-bottom: 50px;
+        box-shadow: none;
+    }
+}
